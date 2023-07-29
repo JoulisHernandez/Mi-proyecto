@@ -1,7 +1,7 @@
-/* En este archivo escriban su CSS */
-@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+/* En este archivo escriban su CSS */ 
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
 /* Fonts */
-/* Importar aquí la font */
+/* Importar aquí la font */font-family: 'Lato', sans-serif;
 
 
 
@@ -14,21 +14,31 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
+    background:  #fbfbfb;
+    color: #0f0f0f;
+    font-size: 18px;
+    /* Para que el scrolleo en la one page sea suave */
 }
-
+body{
+    font-family: 'Lato', sans-serif;
+}
 /* Para quitar los puntos a los items de listas */
 ul {
     list-style: none;
-    display: block;
+    display: flex;
+    margin-left: auto;
     justify-content: right;
+    font-weight: bold;
 }
 
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
     text-decoration: none;
     color: inherit;
+}
+li{
+    margin: 15px;
 }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
@@ -40,18 +50,53 @@ main {
 }
 nav{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 90px;
+    width: 400px;
 }
 .logo{
-    width: 100px;
-    justify-content: left;
+    width: 130px;
+    height: 90px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.foto{
+    border-radius: 100%;
+    max-width: 300px;
+    width: 400px;
+    margin: auto;
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+  }
+nav a:hover{
+    color: aquamarine;
+}
+.inicio{
+    min-height: 100vh;
     display: flex;
-flex-direction: column;
-justify-content:left ;
-align-items: normal;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2px;
+}
+p{
+ text-align: center;
+ margin: 20px 0px 20px;
+
+}
+button{
+   background-color:  #af599e;
+   color: #fbfbfb;
+    font-size: 20px;
+    border-radius: 10%;
+    display: flex;
+    margin: auto;
 }
 
 /* Recomendaciones! 
