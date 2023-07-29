@@ -1,7 +1,8 @@
 /* En este archivo escriban su CSS */ 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
 /* Fonts */
-/* Importar aquí la font */font-family: 'Lato', sans-serif;
+/* Importar aquí la font */
+font-family: 'Lato', sans-serif;
 
 
 
@@ -95,7 +96,7 @@ button{
    color: #fbfbfb;
     font-size: 20px;
     border-radius: 10%;
-    display: flex;
+     display: flex;
     margin: auto;
 }
 
