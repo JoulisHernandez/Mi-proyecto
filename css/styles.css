@@ -102,6 +102,9 @@ button{
     padding: 10px;
     margin-bottom: 100px;
 }
+button a:hover{
+    color: aquamarine;
+}
 #contacto{
     min-height: 100vh;
 }
@@ -131,7 +134,7 @@ h2{
     align-items: center;
     width: 50px;
     max-width: 400px;
-}
+    }
 footer{
     background-color:  #af599e;
     height: 90px;
@@ -139,7 +142,10 @@ footer{
     justify-content: center;
     align-items: baseline;
     margin: 100px 0px 0px;
- }
+}
+iconos a:hover{
+    color: #0f0f0f;
+}
 footer p{
     color: #fbfbfb;
     align-items: center;
